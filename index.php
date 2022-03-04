@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -139,8 +137,12 @@
                       </button>
                     </li>
                     <li>
-                      <a class="btn btn_primary text-uppercase" href="contact.html">Sign in/Sign up</a>
+                      <button type="button" class="cart_btn">
+                        <i class='bx bx-user'></i>
+                    <!--    <small class="cart_counter">2</small>-->
+                      </button>
                     </li>
+
                   </ul>
                 </nav>
               </div>
@@ -294,7 +296,6 @@
                   <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-
                 </ul>
               </div>
 
@@ -390,7 +391,6 @@
                   <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-
                 </ul>
               </div>
             </div>
@@ -1046,10 +1046,10 @@
                         </h4>
                       </div>
                       <p>
-                        Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatuey.
+                       I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit.
                       </p>
                       <div class="testimonial_admin text-uppercase">
-                        <h5 class="admin_name">rasalina De Willamson</h5>
+                        <h5 class="admin_name">Smith</h5>
                         <ul class="rating_star ul_li">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -1057,7 +1057,7 @@
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="far fa-star"></i></li>
                         </ul>
-                        <span class="admin_title">Founder & CO</span>
+                        <span class="admin_title"></span>
                       </div>
                     </div>
                   </div>
@@ -1083,10 +1083,10 @@
                         </h4>
                       </div>
                       <p>
-                        Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatuey.
+                        This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. The barista was so friendly and pleasant to talk with. One thing that I got fascinated by this place. They had the most affordable and delicious coffee in town.
                       </p>
                       <div class="testimonial_admin text-uppercase">
-                        <h5 class="admin_name">rasalina De Willamson</h5>
+                        <h5 class="admin_name">Jason</h5>
                         <ul class="rating_star ul_li">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -1094,7 +1094,7 @@
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="far fa-star"></i></li>
                         </ul>
-                        <span class="admin_title">Founder & CO</span>
+                        <span class="admin_title"></span>
                       </div>
                     </div>
                   </div>
@@ -1120,10 +1120,10 @@
                         </h4>
                       </div>
                       <p>
-                        Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatuey.
+                        A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate on what you do. They do have a variety of food and drinks you can select from. I honestly love the great interior all over the place. Trust me! You will never be disappointed for sure! A memorable place to relax.
                       </p>
                       <div class="testimonial_admin text-uppercase">
-                        <h5 class="admin_name">rasalina De Willamson</h5>
+                        <h5 class="admin_name">Annie</h5>
                         <ul class="rating_star ul_li">
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="fas fa-star"></i></li>
@@ -1131,7 +1131,7 @@
                           <li><i class="fas fa-star"></i></li>
                           <li><i class="far fa-star"></i></li>
                         </ul>
-                        <span class="admin_title">Founder & CO</span>
+                        <span class="admin_title"></span>
                       </div>
                     </div>
                   </div>
@@ -1181,13 +1181,12 @@
                       <a href="blog_details.html">Americano Spacial Coffee</a>
                     </h3>
                     <p>
-                      The coffee is brewed by  first roasting the green coffee beans over hot coals in a brazier.Once the beans are roasted each participant is given...
+                      Unquestionably, the best coffee shop in the area! I’m so thankful finally.The atmosphere inside this coffee shop was very vibrant and relaxing. I will definitely rate them a five-star for everything that they provided...
                     </p>
                     <a class="btn_text text-uppercase" href="blog_details.html"><span>Read More</span> <i class="far fa-angle-double-right"></i></a>
                     <ul class="post_meta ul_li">
-                      <li><a href="#!"><i class="fal fa-user"></i> Rasalina De</a></li>
-                      <li><a href="#!"><i class="fal fa-heart"></i> 36 like</a></li>
-                      <li><a href="#!"><i class="fal fa-comment-alt"></i> 8 comments</a></li>
+                      <li><a href="#!"><i class="fal fa-user"></i> Annie</a></li>
+
                     </ul>
                   </div>
                 </div>
@@ -1204,13 +1203,13 @@
                       <a href="blog_details.html">Doing justice to the beans!</a>
                     </h3>
                     <p>
-                      The coffee is brewed by  first roasting the green coffee beans over hot coals in a brazier.Once the beans are roasted each participant is given...
+                      This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café. The cost is fair for everything and the atmosphere is good...
                     </p>
                     <a class="btn_text text-uppercase" href="blog_details.html"><span>Read More</span> <i class="far fa-angle-double-right"></i></a>
                     <ul class="post_meta ul_li">
-                      <li><a href="#!"><i class="fal fa-user"></i> Rasalina De</a></li>
-                      <li><a href="#!"><i class="fal fa-heart"></i> 36 like</a></li>
-                      <li><a href="#!"><i class="fal fa-comment-alt"></i> 8 comments</a></li>
+
+                      <li><a href="#!"><i class="fal fa-user"></i> Jason</a></li>
+
                     </ul>
                   </div>
                 </div>
@@ -1227,13 +1226,12 @@
                       <a href="blog_details.html">Americano Spacial Coffee</a>
                     </h3>
                     <p>
-                      The coffee is brewed by  first roasting the green coffee beans over hot coals in a brazier.Once the beans are roasted each participant is given...
+                      I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a must-visit! We will be back again!..
                     </p>
                     <a class="btn_text text-uppercase" href="blog_details.html"><span>Read More</span> <i class="far fa-angle-double-right"></i></a>
                     <ul class="post_meta ul_li">
-                      <li><a href="#!"><i class="fal fa-user"></i> Rasalina De</a></li>
-                      <li><a href="#!"><i class="fal fa-heart"></i> 36 like</a></li>
-                      <li><a href="#!"><i class="fal fa-comment-alt"></i> 8 comments</a></li>
+                      <li><a href="#!"><i class="fal fa-user"></i> Jake</a></li>
+
                     </ul>
                   </div>
                 </div>
@@ -1262,10 +1260,36 @@
               <div class="col-lg-5 col-md-6 col-sm-7">
                 <div class="footer_subscribe_form text-center wow fadeInUp" data-wow-delay=".1s">
                   <h2 class="form_title text-uppercase">Coffee Build your Fresh mind</h2>
-                  <form action="#">
+                  <form action="index.php" method="POST">
+                    <?php
+                    $userEmail= "";
+                    if(isset($_POST['submit']))
+                    {
+                      $userEmail = $_POST['email'];
+                      if(filter_var($userEmail, FILTER_VALIDATE_EMAIL))
+                      {
+                         $subject = "Thanks for subscribing us- Cafenod";
+                         $message = "Thanks for subsscribing ,stay tuned";
+                         $sender = "From: jayashree3602@gmail.com";
+                         if (mail($userEmail,$subject, $message, $sender))
+                         {
+                             echo "Thank you";
+                             $userEmail= "";
+                         }
+                         else
+                         {
+                           echo "Mail not sent";                           
+                         }
+                      }
+                      else
+                      {
+                        echo $userEmail "not valid";
+                      }
+                    }
+                    ?>
                     <div class="form_item">
-                      <input type="email" name="email" placeholder="Enter your email">
-                      <button class="btn btn_primary text-uppercase" type="submit">Subscribe Now</button>
+                      <input type="text" name="email" placeholder="Enter your email" required value="<?php echo $userEmail ?>">
+                      <button class="btn btn_primary text-uppercase" type="submit" name="submit">Subscribe Now</button>
                     </div>
                   </form>
                 </div>
