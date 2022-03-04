@@ -1278,11 +1278,7 @@
                          }
                          else
                          {
-<<<<<<< HEAD
                            echo "Mail not sent";
-=======
-                           echo "Mail not sent";                           
->>>>>>> 7ae9ff027ecb92d9e62fb233152c76cd18ef9991
                          }
                       }
                       else
