@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-
+    <title>Our Menu</title>
     <link rel="shortcut icon" href="assets/images/logo/favourite_icon.png">
 
     <!-- fraimwork - css include -->
@@ -75,7 +76,7 @@
                   <div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
                     <ul class="main_menu_list ul_li">
                       <li class="active dropdown">
-                        <a class="nav-link" href="index.html" id="home_submenu" role="button" aria-expanded="false">
+                        <a class="nav-link" href="index.html" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Home
                         </a>
 
@@ -84,14 +85,13 @@
                         <a class="nav-link" href="#" id="about_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                         <ul class="submenu dropdown-menu" aria-labelledby="about_submenu">
                           <li><a href="about.html">About Us</a></li>
-                          <li><a href="about_clients.html">About Me</a></li>
+                          <li><a href="about_clients.html">About Clients</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
                         <a class="nav-link" href="shop.html" id="portfolio_submenu" role="button"  aria-expanded="false">
-                          Shop
+                          shop
                         </a>
-
                       </li>
                       <li class="dropdown">
                         <a class="nav-link" href="#" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -100,12 +100,13 @@
                         <ul class="submenu dropdown-menu" aria-labelledby="services_submenu">
                           <li><a href="menu.html">Recipe Menu</a></li>
                           <li><a href="cart.html">Cart</a></li>
+                      
                           <li><a href="reserve_table.html">Reserve Table</a></li>
                           <li><a href="reservation_form.html">Reservation Form</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
-                        <a class="nav-link" href="blog.html" id="experience_submenu" role="button"  aria-expanded="false">
+                        <a class="nav-link" href="blog.html" id="experience_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Blog
                         </a>
 
@@ -120,17 +121,14 @@
                   </div>
 
                   <ul class="header_btns_group ul_li_right">
-                    <li>
-                      <button type="button" class="main_search_btn" data-bs-toggle="collapse" data-bs-target="#main_search_collapse" aria-expanded="false" aria-controls="main_search_collapse">
 
-                      </button>
-                    </li>
                     <li>
                       <button type="button" class="cart_btn">
                         <i class="fal fa-shopping-bag"></i>
 
                       </button>
                     </li>
+
                   </ul>
                 </nav>
               </div>
@@ -139,19 +137,7 @@
           </div>
         </div>
 
-        <!-- collapse search - start -->
-        <div class="main_search_collapse collapse" id="main_search_collapse">
-          <div class="main_search_form card">
-            <div class="container maxw_1560">
-              <form action="#">
-                <div class="form_item">
-                  <input type="search" name="search" placeholder="Search here...">
-                  <button type="submit" class="submit_btn"><i class="fal fa-search"></i></button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+
         <!-- collapse search - end -->
       </header>
       <!-- header_section - end
@@ -161,89 +147,16 @@
       ================================================== -->
       <main>
 
-        <!-- cart_sidebar - start
-        ================================================== -->
-        <!--
-        <div class="sidebar-menu-wrapper">
-          <div class="cart_sidebar">
-            <button type="button" class="close_btn"><i class="fal fa-times"></i></button>
-            <h2 class="heading_title text-uppercase">Cart Items - <span>4</span></h2>
 
-            <div class="cart_items_list">
-              <div class="cart_item">
-                <div class="item_image">
-                  <img src="assets/images/recent_post/img_03.jpg" alt="image_not_found">
-                </div>
-                <div class="item_content">
-                  <h4 class="item_title">
-                    Rorem ipsum dolor sit amet, sectetur adipisi cingey.
-                  </h4>
-                  <span class="item_price">$19.00</span>
-                  <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                </div>
-              </div>
-
-              <div class="cart_item">
-                <div class="item_image">
-                  <img src="assets/images/recent_post/img_04.jpg" alt="image_not_found">
-                </div>
-                <div class="item_content">
-                  <h4 class="item_title">
-                    Rorem ipsum dolor sit amet, sectetur adipisi cingey.
-                  </h4>
-                  <span class="item_price">$19.00</span>
-                  <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                </div>
-              </div>
-
-              <div class="cart_item">
-                <div class="item_image">
-                  <img src="assets/images/recent_post/img_05.jpg" alt="image_not_found">
-                </div>
-                <div class="item_content">
-                  <h4 class="item_title">
-                    Rorem ipsum dolor sit amet, sectetur adipisi cingey.
-                  </h4>
-                  <span class="item_price">$19.00</span>
-                  <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                </div>
-              </div>
-
-              <div class="cart_item">
-                <div class="item_image">
-                  <img src="assets/images/recent_post/img_06.jpg" alt="image_not_found">
-                </div>
-                <div class="item_content">
-                  <h4 class="item_title">
-                    Rorem ipsum dolor sit amet, sectetur adipisi cingey.
-                  </h4>
-                  <span class="item_price">$19.00</span>
-                  <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                </div>
-              </div>
-            </div>
-            <div class="total_price text-uppercase">
-              <span>Sub Total:</span>
-              <span>$76.00</span>
-            </div>
-            <ul class="btns_group ul_li">
-              <li><a href="cart.html" class="btn btn_primary text-uppercase">View Cart</a></li>
-              <li><a href="checkout.html" class="btn btn_border border_black text-uppercase">Checkout</a></li>
-            </ul>
-          </div>
-          <div class="cart_sidebar_overlay"></div>
-        </div>-->
-        <!-- cart_sidebar - end
-        ================================================== -->
 
         <!-- breadcrumb_section - start
         ================================================== -->
         <section class="breadcrumb_section text-uppercase" style="background-image: url(assets/images/breadcrumb/breadcrumb_bg_01.jpg);">
           <div class="container">
-            <h1 class="page_title text-white wow fadeInUp" data-wow-delay=".1s">Contact Us</h1>
+            <h1 class="page_title text-white wow fadeInUp" data-wow-delay=".1s">Our Menu</h1>
             <ul class="breadcrumb_nav ul_li wow fadeInUp" data-wow-delay=".2s">
               <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-              <li>Contact Us</li>
+              <li>Our Menu</li>
             </ul>
           </div>
           <div class="breadcrumb_icon_wrap">
@@ -258,74 +171,170 @@
         <!-- breadcrumb_section - end
         ================================================== -->
 
-        <!-- contact_section - start
+        <!-- recipe_menu_section - start
         ================================================== -->
-        <section class="contact_section sec_ptb_120 bg_default_gray">
+        <section class="recipe_menu_section sec_ptb_120 bg_gray deco_wrap">
           <div class="container">
-            <div class="contact_form bg_white wow fadeInUp" data-wow-delay=".1s">
-              <div class="main_contact_info_wrap">
-                <div class="contact_info_item">
-                  <div class="item_icon"><i class="fal fa-envelope"></i></div>
-                  <div class="item_content">
-                    <h3 class="item_title text-uppercase">Email Address</h3>
-                    <p>jayashree3602@gmail.com</p>
-                  </div>
-                </div>
-                <div class="contact_info_item">
-                  <div class="item_icon"><i class="fal fa-map-marker-alt"></i></div>
-                  <div class="item_content">
-                    <h3 class="item_title text-uppercase">Our Location</h3>
-                    <p>Inside KG Campus</p>
+            <ul class="filters-button-group style_3 ul_li_center wow fadeInUp" data-wow-delay=".1s">
+              <li><button class="button text-uppercase active" data-filter="*">All</button></li>
+              <li><button class="button text-uppercase" data-filter=".chocolate">Chocolate</button></li>
+              <li><button class="button text-uppercase" data-filter=".coffee">Coffee</button></li>
+              <li><button class="button text-uppercase" data-filter=".sandwiches">Sandwiches</button></li>
+              <li><button class="button text-uppercase" data-filter=".sweets">Sweets</button></li>
+              <li><button class="button text-uppercase" data-filter=".blacktea">Black tea</button></li>
+              <li><button class="button text-uppercase" data-filter=".greantea">Green tea</button></li>
+            </ul>
 
+            <div class="recipe_item_grid grid wow fadeInUp" data-wow-delay=".2s">
+              <div class="element-item chocolate greantea " data-category="chocolate">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_01.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">americano Super hot coffee</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="contact_info_item">
-                  <div class="item_icon"><i class="fal fa-phone"></i></div>
-                  <div class="item_content">
-                    <h3 class="item_title text-uppercase">Phone Number</h3>
-                    <p>0123456789</p>
-
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>3.5
+                    </strong>
                   </div>
                 </div>
               </div>
-              <form action="#">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="form_item">
-                      <input type="text" name="name" placeholder="Your name:">
+
+              <div class="element-item coffee blacktea " data-category="coffee">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_02.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">special raw coffee</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="form_item">
-                      <input type="email" name="email" placeholder="Your Mail:">
-                    </div>
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>4.8
+                    </strong>
                   </div>
                 </div>
-                <div class="form_item">
-                  <input type="text" name="subject" placeholder="Enter Your Subject:">
+              </div>
+
+              <div class="element-item sandwiches sweets " data-category="sandwiches">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_03.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">indian pure tea</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>1.6
+                    </strong>
+                  </div>
                 </div>
-                <div class="form_item">
-                  <textarea name="message" placeholder="Your Massage:"></textarea>
+              </div>
+
+              <div class="element-item sweets sandwiches " data-category="sweets">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_04.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">Bangladeshi green tea</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>9.3
+                    </strong>
+                  </div>
                 </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn_primary text-uppercase">Send message</button>
+              </div>
+
+              <div class="element-item blacktea coffee " data-category="blacktea">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_05.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">Rolatina Sweets cafe house</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>0.8
+                    </strong>
+                  </div>
                 </div>
-              </form>
+              </div>
+
+              <div class="element-item greantea chocolate " data-category="greantea">
+                <div class="recipe_item">
+                  <div class="content_col">
+                    <a class="item_image" href="shop_details.html">
+                      <img src="assets/images/menu/img_02.png" alt="image_not_found">
+                    </a>
+                    <div class="item_content">
+                      <h3 class="item_title text-uppercase">
+                        <a href="shop_details.html">special raw coffee</a>
+                      </h3>
+                      <p class="mb-0">
+                        The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. Once the beans are roasted each participant is given an
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content_col">
+                    <strong class="item_price">
+                      <sub>$</sub>4.8
+                    </strong>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-        <!-- contact_section - end
-        ================================================== -->
 
-        <!-- google map - start
-        ================================================== -->
-        <div class="map_section">
-          <div id="mapBox" class="wow fadeInUp" data-wow-delay=".1s" data-lat="40.701083" data-lon="-74.1522848" data-zoom="12" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083" data-mlon="-74.1522848">
+          <div class="deco_item shape_1">
+            <img src="assets/images/menu/shape_01.png" alt="image_not_found">
           </div>
-        </div>
-        <!-- google map - end
+          <div class="deco_item shape_2">
+            <img src="assets/images/menu/shape_02.png" alt="image_not_found">
+          </div>
+        </section>
+        <!-- recipe_menu_section - end
         ================================================== -->
-
       </main>
       <!-- main body - end
       ================================================== -->
@@ -340,6 +349,7 @@
               <div class="col-lg-5 col-md-6 col-sm-7">
                 <div class="footer_subscribe_form text-center">
                   <h2 class="form_title text-uppercase wow fadeInUp" data-wow-delay=".1s">Coffee Build your Fresh mind</h2>
+
                 </div>
               </div>
             </div>
@@ -362,6 +372,7 @@
                     <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+
                   </ul>
                 </div>
               </div>
@@ -371,8 +382,9 @@
                   <h3 class="footer_widget_title text-uppercase">Contact us</h3>
                   <ul class="ul_li_block">
                     <li><strong class="text-uppercase">Adress:</strong> Inside KG Campus</li>
-                    <li><strong class="text-uppercase">Mail:</strong>  jayashree3602@gmail.com</li>
-                    <li><strong class="text-uppercase">Phone:</strong> 1203456789</li>
+                    <li><strong class="text-uppercase">Mail:</strong> jayashree3602@gmail.com</li>
+                    <li><strong class="text-uppercase">Phone:</strong> 0123456789</li>
+
                   </ul>
                 </div>
               </div>
@@ -390,7 +402,7 @@
                       <span>10:00 - 18:00</span>
                     </li>
                     <li>
-                      Wednesday
+                    Wednesday
                       <span>11:00 - 18:00</span>
                     </li>
                     <li>
@@ -418,24 +430,24 @@
                   <h3 class="footer_widget_title text-uppercase">Recent News</h3>
 
                   <div class="recent_post">
-                    <a class="item_image" href="#!">
+                    <a class="item_image" href="blog_details.html">
                       <img src="assets/images/recent_post/img_01.png" alt="image_not_found">
                     </a>
                     <div class="item_content">
                       <h4 class="item_title">
-                        <a href="#!">Best Smell of Americano Coffee Trins</a>
+                        <a href="blog_details.html">Best Smell of Americano Coffee Trins</a>
                       </h4>
                       <span class="post_date text-uppercase">December 30 - 2021</span>
                     </div>
                   </div>
 
                   <div class="recent_post">
-                    <a class="item_image" href="#!">
+                    <a class="item_image" href="blog_details.html">
                       <img src="assets/images/recent_post/img_02.png" alt="image_not_found">
                     </a>
                     <div class="item_content">
                       <h4 class="item_title">
-                        <a href="#!">Best Smell of Americano Coffee Trins</a>
+                        <a href="blog_details.html">Best Smell of Americano Coffee Trins</a>
                       </h4>
                       <span class="post_date text-uppercase">December 30 - 2021</span>
                     </div>
@@ -448,7 +460,7 @@
 
         <div class="container">
           <div class="footer_bottom text-center">
-            <p class="copyright_text mb-0 wow fadeInUp" data-wow-delay=".2s">Jayashree Chandrasekaran</p>
+            <p class="copyright_text mb-0 wow fadeInUp" data-wow-delay=".2s">Jayashree<a class="btn_text"><span>Chandrasekaran</span></a></p>
           </div>
         </div>
       </footer>
